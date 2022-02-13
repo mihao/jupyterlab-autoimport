@@ -51,7 +51,7 @@ setup_args = dict(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    install_requires=[],
+    install_requires=["ipython_autoimport@git+https://github.com/anntzer/ipython-autoimport@4de8e8c25fee260bb198f228b43da36cfb0d02ef#egg=ipython_autoimport"],
     zip_safe=False,
     include_package_data=True,
     python_requires=">=3.7",
