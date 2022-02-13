@@ -1,0 +1,11 @@
+name: jupyterlab-autoimport
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python
+  - pip
+  - nodejs
+  - jupyter-packaging=0.10.*
+  - jupyterlab=3.1.*
+  - conda-lock
